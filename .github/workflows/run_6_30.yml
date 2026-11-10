@@ -2,14 +2,6 @@ name: Run 6:30
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '25 22 * * *'
-    - cron: '30 22 * * *'
-    - cron: '40 22 * * *'
-    - cron: '50 22 * * *'
-    - cron: '00 23 * * *'
-    - cron: '10 23 * * *'
-    - cron: '20 23 * * *'
 
 jobs:
   build:
